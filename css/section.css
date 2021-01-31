@@ -1,0 +1,78 @@
+h1 {
+  margin-top: 50px;
+  color: rgb(50, 163, 169, 0.7);
+  letter-spacing: 2px;
+  border-bottom: 1px solid grey;
+  
+}
+
+h2 {
+  margin-top: 50px;
+  color: rgb(50, 163, 169, 0.7);
+  letter-spacing: 2px;
+  border-bottom: 1px solid grey;
+  font-size: 0.9em;
+  
+}
+
+
+.h1index:before {
+  content: "\270E"
+}
+
+.h1ev:before {
+  content: "\272E"
+}
+
+h2:before {
+  content:"\27B2"
+}
+
+#banniere img{
+  width: 100%;
+}
+
+
+
+.row-top{
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.row-bottom{
+  padding: 10px;
+  margin-top: -15px;
+}
+
+.block {
+  padding: 10px;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 1px 1px 12px grey;
+  height: 100%;
+}
+
+.card img{
+  width: 350px;
+  height: 250px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; 
+}
+
+.card-title {
+  font-size: 0.8em;
+}
+
+.card-text {
+  font-size: 0.6em;
+}
+
+ul {
+  font-size: 0.8em;
+}
+
+li {
+  padding: 5px;
+}
